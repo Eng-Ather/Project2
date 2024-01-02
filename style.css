@@ -1,0 +1,39 @@
+/*- - - - - - - - - - - - - SELECTORS - - - - - - - - - - - - -*/
+
+
+
+
+/*- - - - - - - - - - - - - UNIVERSAL SELECTOR - - - - - - - -*/
+*{
+    background-color: lightgoldenrodyellow;
+}
+
+/*- - - -  - - - - - - - -  -TYPE SELECTOR - - - - - - - - - */
+h1{
+    font-weight: 100;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgb(174, 187, 154);
+     color: rgb(77, 88, 88);
+}
+
+div{
+    padding: 20px;
+    font-size: 30px;
+}
+
+/* - - - - - - - - - - - - - CLASS SELECTOR - - - - - - - - - */
+.class{
+    background-color: rgb(224, 182, 205);
+    border-radius: 15px;
+    width: 700px; height: 80px;
+}
+
+/*- - - - - - - - - - - - - ID SELECTOR - - - - - - - - - -*/
+#d1{
+    background-color: rgb(209, 187, 231);
+    border-radius:15px;
+    width: 900px; height: 80px;
+    margin: 10px;
+}
